@@ -3,7 +3,7 @@ cnn:
     - fullname: Carlos Novo
     - shell: /bin/zsh
     - home: /home/cnn
-    - uid: 1010
+    - uid: 1000
     - gid: users
     - groups:
       - sudo
@@ -14,6 +14,8 @@ cnn-key:
     - user: cnn
     - source: salt://ssh_keys/cnn.id_rsa.pub
     - config: /%h/.ssh/authorized_keys    
+    - require:
+      - user: cnn
 
 oh_my_zsh_cnn:
   git.latest:
