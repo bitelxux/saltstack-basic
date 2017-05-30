@@ -1,7 +1,8 @@
 base:
   '*':
     - requirements
-    - users
+    - terminator
     - chrome
     - skype 
     - mega
+    - users

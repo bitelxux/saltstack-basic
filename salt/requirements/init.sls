@@ -11,7 +11,6 @@ common-packages:
       - tcpdump
       - python-pip
       - zsh
-      - terminator
 
 #############################
 # ssh
