@@ -21,6 +21,7 @@ mega:
 
 dpkg -i /root/installers/mega.deb:
   cmd.run:
+    - unless: ls /usr/bin/megasync
     - requires:
       - dependencies
       - mega

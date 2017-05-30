@@ -1,8 +1,9 @@
 base:
   '*':
     - requirements
+    - users
+  'cnn':
     - terminator
     - chrome
-    - skype 
+    - skype
     - mega
-    - users
