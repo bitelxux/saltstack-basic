@@ -2,5 +2,6 @@ base:
   '*':
     - requirements
     - users
-  'minion4':
-    - minion4
+    - chrome
+    - skype 
+    - mega

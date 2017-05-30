@@ -1,10 +1,10 @@
 cnn:
   user.present:
     - fullname: Carlos Novo
-    - shell: /bin/zsh
+    - shell: /usr/bin/zsh
     - home: /home/cnn
     - uid: 1000
-    - gid: users
+    - gid: 1000
     - groups:
       - sudo
       - adm

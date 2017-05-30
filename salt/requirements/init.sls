@@ -2,6 +2,8 @@ common-packages:
   pkg.installed:
     - pkgs:
       - git
+      - gitk
+      - git-gui
       - sudo 
       - vim
       - curl
@@ -9,9 +11,17 @@ common-packages:
       - tcpdump
       - python-pip
       - zsh
+      - terminator
+
+#############################
+# ssh
+#############################
 
 openssh-server:
-  pkg.installed
+  pkg.installed:
+    - version: latest
+    - refresh: True
+    - allow_updates: True
 
 ssh:
   service.running:
@@ -21,4 +31,3 @@ ssh:
       - pkg: openssh-server
     - watch:
       - pkg: openssh-server
-
