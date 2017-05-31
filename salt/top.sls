@@ -9,3 +9,4 @@ base:
     - mega
     - viber
     - docker
+    - atom

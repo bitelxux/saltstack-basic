@@ -14,7 +14,7 @@ viber:
 
 dpkg -i /root/installers/viber.deb:
   cmd.run:
-    - unless: ls /usr/bin/viber
+    - unless: ls /opt/viber/Viber
     - requires:
       - viber_dependencies
       - viber

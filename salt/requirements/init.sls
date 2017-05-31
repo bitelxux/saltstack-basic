@@ -11,6 +11,8 @@ common-packages:
       - tcpdump
       - python-pip
       - zsh
+      - htop
+      - encfs
 
 #############################
 # ssh
