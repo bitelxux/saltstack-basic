@@ -1,15 +1,8 @@
-dependencies:
+mega_dependencies:
   pkg.installed:
     - pkgs:
       - libc-ares2
       - libcrypto++9v5
-
-/root/installers:
-  file.directory:
-    - user: root
-    - group: root
-    - mode: 755
-    - makedirs: True
 
 mega:
   file.managed:
@@ -23,5 +16,5 @@ dpkg -i /root/installers/mega.deb:
   cmd.run:
     - unless: ls /usr/bin/megasync
     - requires:
-      - dependencies
+      - mega_dependencies
       - mega

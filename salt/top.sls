@@ -7,4 +7,5 @@ base:
     - chrome
     - skype
     - mega
+    - viber
     - docker
