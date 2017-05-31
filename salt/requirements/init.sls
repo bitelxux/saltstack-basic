@@ -13,6 +13,8 @@ common-packages:
       - zsh
       - htop
       - encfs
+      - build-essential
+      - rst2pdf
 
 #############################
 # ssh
