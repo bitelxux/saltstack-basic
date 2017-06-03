@@ -15,6 +15,7 @@ common-packages:
       - encfs
       - build-essential
       - rst2pdf
+      - gnuplot
 
 #############################
 # ssh
