@@ -16,6 +16,7 @@ common-packages:
       - build-essential
       - rst2pdf
       - gnuplot
+      - evince
 
 #############################
 # ssh
